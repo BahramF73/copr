@@ -3,7 +3,7 @@
 Name:           libfprint-2-tod1-goodix
 Version:        0.0.6
 Release:        %autorelease
-Summary:        Goodix driver module for libfprint-2 Touch OEM Driver for XPS 13 9310
+Summary:        Goodix driver module for libfprint-2 Touch OEM Driver for XPS 13 9310 and G3 15 3590
 License:        NonFree
 Group:          Hardware/Mobile
 URL:            https://git.launchpad.net/~oem-solutions-engineers/libfprint-2-tod1-goodix/+git/libfprint-2-tod1-goodix
@@ -17,7 +17,7 @@ Supplements:    modalias(usb:v27C6p530Cd*dc*dsc*dp*ic*isc*ip*)
 Supplements:    modalias(usb:v27C6p5840d*dc*dsc*dp*ic*isc*ip*)
 
 %description
-This is user space driver for Goodix finger print module. Proprietary driver for the fingerprint reader on the Dell XPS 13 9310 - direct from Dell's Ubuntu repo. It should work for 27c6:538c, 27c6:533c, 27c6:530c, 27c6:5840.
+This is user space driver for Goodix finger print module. Proprietary driver for the fingerprint reader on the Dell XPS 13 9310 and Dell G3 15 3590 - direct from Dell's Ubuntu repo. It should work for 27c6:538c, 27c6:533c, 27c6:530c, 27c6:5840.
 
 %global debug_package %{nil}
 
