@@ -22,6 +22,7 @@ BuildRequires:  pkgconfig(nss)
 BuildRequires:  pkgconfig(pixman-1)
 BuildRequires:  gtk-doc
 BuildRequires:  libgudev-devel
+BuildRequires:  openssl-devel
 # For the udev.pc to install the rules
 BuildRequires:  systemd
 BuildRequires:  gobject-introspection-devel
