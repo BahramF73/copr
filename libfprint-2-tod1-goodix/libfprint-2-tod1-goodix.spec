@@ -38,5 +38,11 @@ install -m 0755 usr/lib/x86_64-linux-gnu/libfprint-2/tod-1/%{soname}-%{version}.
 %{_udevrulesdir}/60-%{name}.rules
 %{_libdir}/libfprint-2/tod-1/%{soname}-%{version}.so
 
+%post
+authselect enable-feature with-fingerprint
+authselect apply-changes
+systemctl enable fprintd
+systemctl start fprintd
+
 %changelog
 %autochangelog
