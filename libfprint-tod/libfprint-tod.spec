@@ -3,7 +3,7 @@
 Name:           libfprint-tod
  
 Version:        1.94.9+tod1
-Release:        %autorelease
+Release:        2%{?dist}
 Summary:        Toolkit for fingerprint scanner (TOD version)
 Requires:       fprintd fprintd-pam
  
