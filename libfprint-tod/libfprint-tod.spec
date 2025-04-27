@@ -31,7 +31,7 @@ BuildRequires:  gobject-introspection-devel
 BuildRequires:  python3-cairo python3-gobject cairo-devel
 BuildRequires:  umockdev >= 0.13.2
 
-Conflicts:       libfprint
+Conflicts:      libfprint
  
 %description
 libfprint-tod offers support for consumer fingerprint reader devices.
